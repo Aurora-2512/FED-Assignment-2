@@ -15,16 +15,16 @@
 }
 
 /* Button Customization */
-.btn-darkblue {
-    background-color: #1a2d5c;
-    color: #f6eee0;
-    border: none;
-}
+    .btn-darkblue {
+        background-color: #1a2d5c;
+        color: #f6eee0;
+        border: none;
+    }
 
-.btn-darkblue:hover {
-    background-color: #243d75;
-    color: #f6eee0;
-}
+    .btn-darkblue:hover {
+        background-color: #243d75;
+        color: #f6eee0;
+    }
 
 /* Category Buttons */
 .btn-category {
@@ -39,83 +39,150 @@
     background-color: #d4d4d4;
 }
 
-/* Cards */
-.card {
-    border: none;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+/* Cards in Home page*/
+    
+    .card {
+        border: none;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
 
-.card img {
-    width: 80px;
-    height: auto;
-}
+    .card-title {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .card-text {
+        color: #666;
+    }
+    
+
+    .card img {
+        width: 220px;
+        height: auto;
+    }
 
 /* General Layout */
-body {
-    background-color: #f6eee0;
-    font-family: 'Arial', sans-serif;
-}
+    body {
+        background-color: #f6eee0;
+        font-family: 'Arial', sans-serif;
+    }
 
 /* Sticky Footer */
-        .container {
-            flex: 1; /* Pushes the footer to the bottom */
-        }
+    .container {
+        flex: 1; /* Pushes the footer to the bottom */
+    }
 
-        .footer {
-            background-color: #1a2d5c; /* Dark blue to match the theme */
-            color: white;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+    .footer {
+        background-color: #1a2d5c; /* Dark blue to match the theme */
+        color: #f6eee0;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
 
 /* Boost Card Custom Styling */
-        .boost {
-            border: 2px solid #1a2d5c; /* Dark blue border */
-            border-radius: 15px; /* Rounded corners */
-            background-color: #f0f8ff; /* Light blue background */
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-            padding: 10px; /* Internal spacing */
-            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-            width: 400px;
-            height: 200px;
-        }
+    .boost {
+        border: 2px solid #1a2d5c; /* Dark blue border */
+        border-radius: 15px; /* Rounded corners */
+        background-color: #f0f8ff; /* Light blue background */
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 10px; /* Internal spacing */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        width: 400px;
+        height: 200px;
+    }
 
-        .boost:hover {
-            transform: scale(1.02); /* Slight zoom on hover */
-            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
-        }
+    .boost:hover {
+        transform: scale(1.02); /* Slight zoom on hover */
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    }
 
-        .boost-card-body h5 {
-            color: #1a2d5c; /* Dark blue text for the title */
-            font-weight: bold; /* Bold for emphasis */
-        }
+    .boost-card-body h5 {
+        color: #1a2d5c; /* Dark blue text for the title */
+        font-weight: bold; /* Bold for emphasis */
+    }
 
-        .boost-card-body p {
-            color: #333; /* Neutral text color */
-            margin-bottom: 5px; /* Space between paragraphs */
-        }
+    .boost-card-body p {
+        color: #333; /* Neutral text color */
+        margin-bottom: 5px; /* Space between paragraphs */
+    }
 
-        .boost .btn-darkblue {
-            margin-top: 10px; /* Space above the button */
-            background-color: #1a2d5c; /* Dark blue background */
-            color: white; /* White text for contrast */
-            border: none; /* Remove border */
-        }
+    .boost .btn-darkblue {
+        margin-top: 10px; /* Space above the button */
+        background-color: #1a2d5c; /* Dark blue background */
+        color: #f6eee0; /* White text for contrast */
+        border: none; /* Remove border */
+    }
 
-        .boost .btn-darkblue:hover {
-            background-color: #243d75; /* Slightly darker shade on hover */
-            color: white;
-        }
+    .boost .btn-darkblue:hover {
+        background-color: #243d75; /* Slightly darker shade on hover */
+        color: #f6eee0;
+    }
 
-        .boost-container{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center; /* Horizontally center */
-            flex-wrap: wrap; /* Allow wrapping for multiple cards */
-            margin-top: 30px; /* Add space above */
-        }
+    .boost-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center; /* Horizontally center */
+        flex-wrap: wrap; /* Allow wrapping for multiple cards */
+        margin-top: 30px; /* Add space above */
+    }
+
+
+/* Header Section */
+.header {
+    background-color: #001f54;
+    color: #f6eee0;
+    padding: 40px 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+/* Login Form Section */
+.login-form {
+    background-color: #f6eee0;
+    padding: 30px 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.login-form .form-label {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    text-align: left; /* Ensure text alignment is to the left */
+    display: block;   /* Make the label take full width */
+    margin-bottom: 5px;
+}
+
+.login-form .btn-primary {
+    width: auto; /* Button width will now adjust to the content */
+    padding: 10px 20px; /* Optional: Adjust padding for a better look */
+    font-size: 16px; /* Adjust font size if necessary */
+    display: block; /* Center button below the inputs */
+    margin: 0 auto; /* Horizontally center the button */
+    background-color: #001f54;
+    border: none;
+}
+
+.login-form .btn-primary:hover {
+    background-color: #00296b;
+}
+

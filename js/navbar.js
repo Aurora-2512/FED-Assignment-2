@@ -1,3 +1,4 @@
+/*navbar*/
 document.getElementById('navbar').innerHTML = `
 <nav class="navbar navbar-expand-lg navbar">
     <div class="container-fluid">
@@ -7,11 +8,19 @@ document.getElementById('navbar').innerHTML = `
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../home.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="Boost.html">Boost</a></li>
-                <li class="nav-item"><a class="nav-link" href="profile.html">My Account</a></li>
+                <li class="nav-item"><a class="nav-link" href="Profile.html">My Account</a></li>
             </ul>
         </div>
     </div>
 </nav>
 `;
+
+/*footer*/
+document.getElementById("footer").innerHTML = `
+<footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 MokeSell. All rights reserved.</p>
+        </div>
+    </footer>`;
